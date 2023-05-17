@@ -1,4 +1,5 @@
-const pokemonList = ["피카츄","라이츄","파이리","꼬부기"];
+
+let pokemonList = ["피카츄","라이츄","파이리","꼬부기"];
 
 
 function exampleOne(array:Array<string>,change1:string,change2:string):string{
@@ -12,5 +13,5 @@ function exampleOne(array:Array<string>,change1:string,change2:string):string{
 // console.log(result)
 
 
-const result2 = pokemonList.splice(0,2,"강","지")
-console.log(result2)
+let result2 = pokemonList.splice(1,2,"강","지")
+console.log(pokemonList)
